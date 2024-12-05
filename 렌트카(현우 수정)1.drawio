@@ -1,0 +1,933 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="3">
+  <diagram name="요구사항" id="Qoukjalac5asn94txZlF">
+    <mxGraphModel dx="1451" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-810" y="750" width="780" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="110" width="340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-814" y="120" width="720" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-5" value="렌트카 관리 프로그램" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-820" y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-6" value="회원" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-814" y="80" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-7" value="비회원" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-8" value="직원" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-814" y="720" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-9" value="전체 렌트차량를 검색할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="170" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-11" value="[차량 서비스]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-12" value="[도서서비스]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-13" value="[인증 서비스]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="380" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-14" value="회원가입 요청시 사용자 입력정보를 받아 저장한다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="414" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-15" value="ID/PW 받아 확인후 로그인 처리를 할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="444" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-16" value="로그아웃시 유지되고있는 사용자 정보는 제거된다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="474" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-17" value="로그인 이후에 회원정보 조회가 가능하다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="504" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-18" value="회원탈퇴 요청시 본인 확인후 회원정보 삭제" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="534" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-19" value="[인증 서비스]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="940" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-20" value="회원가입 요청시 사용자 입력정보를 받아 저장한다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="974" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-21" value="ID/PW 받아 확인후 로그인 처리를 할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="1004" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-22" value="로그아웃시 유지되고있는 사용자 정보는 제거된다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="1034" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-23" value="로그인 이후에 회원정보 조회가 가능하다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="1064" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-24" value="회원탈퇴 요청시 본인 확인후 회원정보 삭제" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="1094" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-25" value="[렌트 서비스]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-443.5" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-26" value="렌트차량를 검색할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="790" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-27" value="[차량 서비스]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="760" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-28" value="렌트차량를 등록할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="820" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-29" value="렌트차량정보를 수정할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="850" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-30" value="렌트차량정보를 삭제 할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-810" y="880" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-31" value="[렌트 서비스]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-447" y="760" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-32" value="차량렌트 예약 신청를 취소 할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-452.5" y="230" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-33" value="회원에 대한 차량렌트 처리를 할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-447" y="790" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-34" value="렌트기록 리스트를 확인할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-449.5" y="170" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-36" value="회원이 렌트한 차량를 반납 처리 할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-447" y="820" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-37" value="렌트된 차량의 예약 정보를 조회할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-449" y="850" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-38" value="대여된 차량기간을 연장할 수 있다(1회)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-451.5" y="200" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-39" value="현재 렌트 가능한 차량의 정보를 확인할수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-449" y="289" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-40" value="렌트가능한 차량를 검색할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-810" y="230" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-41" value="차량명으로&amp;nbsp; 렌트차량 검색할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-810" y="200" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-42" value="렌트차량 검색" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="34" y="151" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-43" value="렌트불가능한 차량를 검색할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-810" y="262" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-45" value="본인 확인을 위한 이메일인증을 할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-804" y="564" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-46" value="본인 확인을 위한 휴대폰인증을 할 수 있다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="594" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-47" value="회원의 도서 반납시&amp;nbsp;최근 예약회원에게 도서대여가능 상태를 전달한다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-445" y="880" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hbtOt1Kj1vMeolSmKQ_P-48" value="차량을 예약 할수있다." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-451" y="260" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NFHfO9UkUiH8mHWCnLNZ" name="유스케이스 다이어그램">
+    <mxGraphModel dx="2231" dy="1205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="keBZ6Y5316cD8JFvudbW-1" value="비회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBZ6Y5316cD8JFvudbW-2" value="직원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1642.63" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBZ6Y5316cD8JFvudbW-3" value="회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keBZ6Y5316cD8JFvudbW-8" value="인증" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="923" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="keBZ6Y5316cD8JFvudbW-9" value="렌트차량 조회" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="493" y="210" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="keBZ6Y5316cD8JFvudbW-10" target="keBZ6Y5316cD8JFvudbW-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBZ6Y5316cD8JFvudbW-10" value="전체" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="483" y="130" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="keBZ6Y5316cD8JFvudbW-11" target="keBZ6Y5316cD8JFvudbW-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBZ6Y5316cD8JFvudbW-11" value="특정차량&lt;div&gt;(필터)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="537" y="130" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="keBZ6Y5316cD8JFvudbW-12" value="차량 렌트" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="498" y="430" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="keBZ6Y5316cD8JFvudbW-13" value="내 정보" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="278" y="719.9999999999999" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="keBZ6Y5316cD8JFvudbW-14" target="keBZ6Y5316cD8JFvudbW-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBZ6Y5316cD8JFvudbW-14" value="개인정보" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="218" y="819.9999999999999" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="keBZ6Y5316cD8JFvudbW-15" target="keBZ6Y5316cD8JFvudbW-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBZ6Y5316cD8JFvudbW-15" value="렌트정보" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="353" y="819.9999999999999" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-1" value="" style="endArrow=open;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;" parent="1" source="keBZ6Y5316cD8JFvudbW-12" target="keBZ6Y5316cD8JFvudbW-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="380" as="sourcePoint" />
+            <mxPoint x="743" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="d6-4DOATnsMB2Ywgtus2-1" vertex="1" connectable="0">
+          <mxGeometry x="0.3324" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-9" value="렌트차량&lt;div&gt;관리&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1332.63" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d6-4DOATnsMB2Ywgtus2-10" target="d6-4DOATnsMB2Ywgtus2-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-10" value="렌트차량&lt;div&gt;등록&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1322.63" y="120" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d6-4DOATnsMB2Ywgtus2-11" target="d6-4DOATnsMB2Ywgtus2-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1292.63" y="180" />
+              <mxPoint x="1377.63" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-11" value="렌트차량&lt;div&gt;정보수정&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="1262.63" y="120" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d6-4DOATnsMB2Ywgtus2-12" target="d6-4DOATnsMB2Ywgtus2-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1472.63" y="180" />
+              <mxPoint x="1377.63" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-12" value="렌트차량&lt;div&gt;조회&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1442.63" y="120" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d6-4DOATnsMB2Ywgtus2-13" target="d6-4DOATnsMB2Ywgtus2-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-4DOATnsMB2Ywgtus2-13" value="렌트차량&lt;div&gt;삭제&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1382.63" y="120" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-2" value="렌트&lt;div&gt;기록&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="910" width="56" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-5" value="회원관리" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1332.63" y="415" width="97.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I7nzLNgWEZ6sEL5dN2Sg-9" target="I7nzLNgWEZ6sEL5dN2Sg-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-9" value="회원조회" style="ellipse;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="1312.63" y="500" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I7nzLNgWEZ6sEL5dN2Sg-10" target="I7nzLNgWEZ6sEL5dN2Sg-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1442.63" y="480" />
+              <mxPoint x="1381.63" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-10" value="특정회원조회" style="ellipse;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="1412.63" y="500" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I7nzLNgWEZ6sEL5dN2Sg-11" target="I7nzLNgWEZ6sEL5dN2Sg-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-11" value="회원삭제" style="ellipse;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="1452.63" y="590" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I7nzLNgWEZ6sEL5dN2Sg-12" target="I7nzLNgWEZ6sEL5dN2Sg-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-12" value="회원렌트기록조회" style="ellipse;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="1382.63" y="590" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="keBZ6Y5316cD8JFvudbW-3" target="keBZ6Y5316cD8JFvudbW-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="450" as="sourcePoint" />
+            <mxPoint x="770" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="keBZ6Y5316cD8JFvudbW-3" target="keBZ6Y5316cD8JFvudbW-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="450" as="sourcePoint" />
+            <mxPoint x="218.01999999999998" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="keBZ6Y5316cD8JFvudbW-1" target="keBZ6Y5316cD8JFvudbW-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="450" as="sourcePoint" />
+            <mxPoint x="770" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-22" value="" style="endArrow=open;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="keBZ6Y5316cD8JFvudbW-12" target="keBZ6Y5316cD8JFvudbW-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="543" y="360" as="sourcePoint" />
+            <mxPoint x="543" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-23" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="I7nzLNgWEZ6sEL5dN2Sg-22" vertex="1" connectable="0">
+          <mxGeometry x="0.3324" y="-2" relative="1" as="geometry">
+            <mxPoint x="-40" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-24" value="" style="endArrow=open;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endFill=0;" parent="1" source="I7nzLNgWEZ6sEL5dN2Sg-5" target="keBZ6Y5316cD8JFvudbW-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="578" y="385" as="sourcePoint" />
+            <mxPoint x="813" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-25" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="I7nzLNgWEZ6sEL5dN2Sg-24" vertex="1" connectable="0">
+          <mxGeometry x="0.3324" y="-2" relative="1" as="geometry">
+            <mxPoint x="26" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-26" value="" style="endArrow=open;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.971;entryY=0.358;entryDx=0;entryDy=0;endFill=0;entryPerimeter=0;" parent="1" source="d6-4DOATnsMB2Ywgtus2-9" target="keBZ6Y5316cD8JFvudbW-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1133" y="490" as="sourcePoint" />
+            <mxPoint x="898" y="373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-27" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="I7nzLNgWEZ6sEL5dN2Sg-26" vertex="1" connectable="0">
+          <mxGeometry x="0.3324" y="-2" relative="1" as="geometry">
+            <mxPoint x="49" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="keBZ6Y5316cD8JFvudbW-2" target="d6-4DOATnsMB2Ywgtus2-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1102.63" y="420" as="sourcePoint" />
+            <mxPoint x="1152.63" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="keBZ6Y5316cD8JFvudbW-2" target="I7nzLNgWEZ6sEL5dN2Sg-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1102.63" y="420" as="sourcePoint" />
+            <mxPoint x="1152.63" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-31" value="결제" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="893" y="515" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-32" value="결제 대행사" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="515" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7nzLNgWEZ6sEL5dN2Sg-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="I7nzLNgWEZ6sEL5dN2Sg-31" target="I7nzLNgWEZ6sEL5dN2Sg-32" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="753" y="400.00000000000006" as="sourcePoint" />
+            <mxPoint x="803" y="350.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="I7nzLNgWEZ6sEL5dN2Sg-2" target="keBZ6Y5316cD8JFvudbW-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="598" y="650" as="sourcePoint" />
+            <mxPoint x="648" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-21" value="예약 날짜 및 시간 선택" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="374" y="665" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-22" value="차량 인수/반납 장소 선택" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="444" y="665" width="71" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dRbuCvUIIFkMvsFP-U9X-21" target="keBZ6Y5316cD8JFvudbW-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="496" y="495" as="sourcePoint" />
+            <mxPoint x="486" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dRbuCvUIIFkMvsFP-U9X-22" target="keBZ6Y5316cD8JFvudbW-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="456" y="595" as="sourcePoint" />
+            <mxPoint x="486" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-26" value="예약 상태 확인" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="515" y="665" width="71" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-27" value="예약 일정 및 차량 변경" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="586" y="665" width="71" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.585;exitY=-0.003;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="dRbuCvUIIFkMvsFP-U9X-26" target="keBZ6Y5316cD8JFvudbW-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402" y="615" as="sourcePoint" />
+            <mxPoint x="542" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dRbuCvUIIFkMvsFP-U9X-27" target="keBZ6Y5316cD8JFvudbW-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="665" as="sourcePoint" />
+            <mxPoint x="542" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-30" value="취소 정책에 따른 예약 최소&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="657" y="665" width="71" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dRbuCvUIIFkMvsFP-U9X-30" target="keBZ6Y5316cD8JFvudbW-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="665" as="sourcePoint" />
+            <mxPoint x="598" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-33" value="개인정보&amp;nbsp;&lt;div&gt;업데이트&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="920" width="56" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dRbuCvUIIFkMvsFP-U9X-34" target="dRbuCvUIIFkMvsFP-U9X-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-34" value="회원 탈퇴" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="226" y="920" width="56" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-35" value="기본 정보" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="920" width="56" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dRbuCvUIIFkMvsFP-U9X-33" target="keBZ6Y5316cD8JFvudbW-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="263" y="830" as="sourcePoint" />
+            <mxPoint x="328" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dRbuCvUIIFkMvsFP-U9X-34" target="keBZ6Y5316cD8JFvudbW-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="930" as="sourcePoint" />
+            <mxPoint x="263" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dRbuCvUIIFkMvsFP-U9X-35" target="keBZ6Y5316cD8JFvudbW-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="940" as="sourcePoint" />
+            <mxPoint x="273" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRbuCvUIIFkMvsFP-U9X-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="keBZ6Y5316cD8JFvudbW-12" target="I7nzLNgWEZ6sEL5dN2Sg-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="607" y="480" as="sourcePoint" />
+            <mxPoint x="568" y="403" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JerIThc9ODtXrOCP2Q5j-1" value="렌트 연장" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="728" y="665" width="71" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JerIThc9ODtXrOCP2Q5j-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JerIThc9ODtXrOCP2Q5j-1" target="keBZ6Y5316cD8JFvudbW-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="672" y="620" as="sourcePoint" />
+            <mxPoint x="543" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JerIThc9ODtXrOCP2Q5j-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JerIThc9ODtXrOCP2Q5j-1" target="I7nzLNgWEZ6sEL5dN2Sg-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="578" y="465" as="sourcePoint" />
+            <mxPoint x="903" y="553" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T3rdECw1ivwrLe2RIPDv" name="유스케이스 명세서">
+    <mxGraphModel dx="1463" dy="4180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-1" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 차량 검색" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-560" width="510" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-1">
+          <mxGeometry y="40" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-3" value="목표" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-2">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-4" value="&lt;span style=&quot;font-weight: 400; text-wrap: nowrap;&quot;&gt;사용자가 원하는 조건에 맞는 차량을 검색합니다.&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-2">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-1">
+          <mxGeometry y="70" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-6" value="엑터" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-5">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-7" value="회원,비회원" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-5">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-1">
+          <mxGeometry y="100" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-9" value="사전 조건" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-8">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-10" value="고객은 로그인 상태이거나, 비회원 검색 기능이 허용가능함" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-8">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-1">
+          <mxGeometry y="130" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-12" value="사후 처리" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-11">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-13" value="고객은 검색된 차량 목록을 확인함" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-11">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-1">
+          <mxGeometry y="160" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-15" value="기본흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-14">
+          <mxGeometry width="60" height="170" as="geometry">
+            <mxRectangle width="60" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-16" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;div&gt;1 고객이 차량 검색 페이지에 접속합니다.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 원하는 대여 날짜와 지역을 입력합니다.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3 추가 필터를 통해 (차량종류, 가격대)를 설정합니다.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4 조건에 맞는 차량 목록을 보여줌&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-14">
+          <mxGeometry x="60" width="450" height="170" as="geometry">
+            <mxRectangle width="450" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-1">
+          <mxGeometry y="330" width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-18" value="대안흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-17">
+          <mxGeometry width="60" height="130" as="geometry">
+            <mxRectangle width="60" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-19" value="&lt;div&gt;조건에 맞는 차량이 없을 경우 , &quot;검색 결과 없음&quot; 메시지가 표시됩니다.&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-17">
+          <mxGeometry x="60" width="450" height="130" as="geometry">
+            <mxRectangle width="450" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-1">
+          <mxGeometry y="460" width="510" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-21" value="예외흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-20">
+          <mxGeometry width="60" height="230" as="geometry">
+            <mxRectangle width="60" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-22" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1. 검색 조건이 비어 있을경우&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1-1 고객이 대여 날짜나 지역을 입력하지 않고 검색 버튼 클릭 .&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1-2 시스템이 &quot;필수 입력 정보를 입력하세요&quot; 라는 메시지를 표시&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2.검색 결과 없음&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2-1 검색 조건에 맞는 차량이 없음&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2-2 시스템이 &quot;검색조건에 맞는 차량이 없습니다.&quot; 라는 메시지 표시 및 조건 재시&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;및 유도&amp;nbsp;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-20">
+          <mxGeometry x="60" width="450" height="230" as="geometry">
+            <mxRectangle width="450" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-24" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 차량 예약" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="-560" width="510" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-24">
+          <mxGeometry y="40" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-26" value="목표" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-25">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-27" value="&lt;span style=&quot;font-weight: 400; text-wrap: nowrap;&quot;&gt;사용자가 선택한 차량을 예약 함&amp;nbsp;&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-25">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-24">
+          <mxGeometry y="70" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-29" value="엑터" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-28">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-30" value="회원" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-28">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-24">
+          <mxGeometry y="100" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-32" value="사전 조건" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-31">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-33" value="고객은 로그인 상태여야 함" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-31">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-24">
+          <mxGeometry y="130" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-35" value="사후 처리" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-34">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-36" value="예약이 성공적으로 완료되고 , 예약 상세 정보가 저장됨&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-34">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-24">
+          <mxGeometry y="160" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-38" value="기본흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-37">
+          <mxGeometry width="60" height="170" as="geometry">
+            <mxRectangle width="60" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-39" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;div&gt;1 고객이 차량 상세 정보를 확인함&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 &quot;예약하기&quot; 버튼을 클릭함&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3 예약 정보를 입력합니다(대여일, 반납일, 결제 정보 등)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4 시스템은 입력 정보를 검증하고 예약을 완료함&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-37">
+          <mxGeometry x="60" width="450" height="170" as="geometry">
+            <mxRectangle width="450" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-40" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-24">
+          <mxGeometry y="330" width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-41" value="대안흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-40">
+          <mxGeometry width="60" height="130" as="geometry">
+            <mxRectangle width="60" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-42" value="&lt;div&gt;예약 날짜가 이미 예약된 차량일 경우, 에러 메시지를 표시함&amp;nbsp;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-40">
+          <mxGeometry x="60" width="450" height="130" as="geometry">
+            <mxRectangle width="450" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-43" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-24">
+          <mxGeometry y="460" width="510" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-44" value="예외흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-43">
+          <mxGeometry width="60" height="230" as="geometry">
+            <mxRectangle width="60" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-45" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1. 예약 날짜가 잘못 설정됨&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1-1 반납 날짜가 대여 날짜보다 빠른 경우&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1-2 &quot;반납 날짜는 대여 날짜 이후여야 합니다.&quot; 라는 메시지 표시&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2 차량이 이미 예약됨&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2-1 고객이 선택한 날짜에 차량이 이미 예약되어 있음&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2-2 시스템이 &quot;선택한 날짜에 차량을 예약할 수 없습니다.&quot;라는 메시지 표시&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;3 결제 정보 오류&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;3-1 고객이 잘못된 결제 정보를 입력&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;3-2 시스템이 &quot;결제 정보를 확인해주세요&quot; 라는 메시지 표시 및 수정 요청&amp;nbsp;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-43">
+          <mxGeometry x="60" width="450" height="230" as="geometry">
+            <mxRectangle width="450" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-46" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 예약 확인&amp;nbsp;" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="510" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-46">
+          <mxGeometry y="40" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-48" value="목표" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-47">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-49" value="&lt;span style=&quot;font-weight: 400; text-wrap: nowrap;&quot;&gt;사용자가 자신의 예약 정보를 확인함&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-47">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-46">
+          <mxGeometry y="70" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-51" value="엑터" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-50">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-52" value="회원" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-50">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-46">
+          <mxGeometry y="100" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-54" value="사전 조건" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-53">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-55" value="고객은 로그인 상태여야 함 , 예약 정보가 존재해야 함" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-53">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-46">
+          <mxGeometry y="130" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-57" value="사후 처리" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-56">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-58" value="예약 정보를 화면에 표시함&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-56">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-46">
+          <mxGeometry y="160" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-60" value="기본흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-59">
+          <mxGeometry width="60" height="170" as="geometry">
+            <mxRectangle width="60" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-61" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;div&gt;1 고객이 &quot;예약 확인&quot; 페이지에 접속함&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 시스템이 고객의 예약 정보를 불러옴&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3 예약 정보를 화면에 표시함&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4 시스템은 입력 정보를 검증하고 예약을 완료함&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-59">
+          <mxGeometry x="60" width="450" height="170" as="geometry">
+            <mxRectangle width="450" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-62" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-46">
+          <mxGeometry y="330" width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-63" value="대안흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-62">
+          <mxGeometry width="60" height="130" as="geometry">
+            <mxRectangle width="60" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-64" value="&lt;div&gt;예약 정보가 없을 경우 &quot; 예약 내역이 없습니다.&quot; 메시지를 표시합니다.&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-62">
+          <mxGeometry x="60" width="450" height="130" as="geometry">
+            <mxRectangle width="450" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-65" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-46">
+          <mxGeometry y="460" width="510" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-66" value="예외흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-65">
+          <mxGeometry width="60" height="230" as="geometry">
+            <mxRectangle width="60" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-67" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1. 로그인 상태가 아님&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1-1 고객이 로그인하지 않은 상태에서 예약 확인 페이지에 접속&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1-2 시스템이 &quot;로그인 후 이용 가능합니다.&quot; 라는 메시지 표시 및 로그인 페이지로&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;리다이렉트 함&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2. 예약 정보 가 없음&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2-1 고객 계정에 예약 정보가 존재하지 않음&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2-2 시스템이 &quot;예약 내역이 없습니다.&quot; 라는 메시지 표시&amp;nbsp;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-65">
+          <mxGeometry x="60" width="450" height="230" as="geometry">
+            <mxRectangle width="450" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-68" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 차량 추가" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="320" width="510" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-68">
+          <mxGeometry y="40" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-70" value="목표" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-69">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-71" value="&lt;span style=&quot;font-weight: 400; text-wrap: nowrap;&quot;&gt;관리자가 시스템에 새 차량을 추가함&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-69">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-68">
+          <mxGeometry y="70" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-73" value="엑터" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-72">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-74" value="관리자" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-72">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-75" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-68">
+          <mxGeometry y="100" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-76" value="사전 조건" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-75">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-77" value="관리자는 관리자 권한으로 로그인 되어 있어야 함&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-75">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-78" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-68">
+          <mxGeometry y="130" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-79" value="사후 처리" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-78">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-80" value="새로운 차량 정보가 데이터 베이스에 저장됨&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-78">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-81" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-68">
+          <mxGeometry y="160" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-82" value="기본흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-81">
+          <mxGeometry width="60" height="170" as="geometry">
+            <mxRectangle width="60" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-83" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1. 관리자가 &quot;차량 추가&quot; 페이지에 접속함&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2. 차량 정보를 입력함(모델명, 가격, 상태, 옵션) 등등&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;3. 시스템이 입력 정보를 검증하고 차량을 추가&amp;nbsp;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-81">
+          <mxGeometry x="60" width="450" height="170" as="geometry">
+            <mxRectangle width="450" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-84" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-68">
+          <mxGeometry y="330" width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-85" value="대안흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-84">
+          <mxGeometry width="60" height="130" as="geometry">
+            <mxRectangle width="60" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-86" value="&lt;div&gt;필수 정보가 누락되었을 경우 에러 메시지를 표시함&amp;nbsp;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-84">
+          <mxGeometry x="60" width="450" height="130" as="geometry">
+            <mxRectangle width="450" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-87" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-68">
+          <mxGeometry y="460" width="510" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-88" value="예외흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-87">
+          <mxGeometry width="60" height="230" as="geometry">
+            <mxRectangle width="60" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-89" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1. 필수 입력 정보 누락&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1-1 관리자 입력 중 차량 모델명, 가격 등 필수 정보가 누락&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1-2 시스템이 &quot;필수 항목을 모두 입력해주세요&quot; 라는 메시지 표시&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2. 이미 등록된 차량&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2-1 같은 차량(번호판)이 이미 등록되어 있음&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2-2 시스템이 &quot;이미 등록된 차량입니다.&quot;라는 메시지 표시&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;3. 권한 부족&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;3-1 비관리자 계정이 차량 추가 기능에 접근&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;3-2 시스템이 &quot;권한이 없습니다.&quot; 라는 메시지 표시 및 접근 차단&amp;nbsp;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-87">
+          <mxGeometry x="60" width="450" height="230" as="geometry">
+            <mxRectangle width="450" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-90" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 회원가입" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-1280" width="510" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-91" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-90">
+          <mxGeometry y="40" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-92" value="목표" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-91">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-93" value="&lt;span style=&quot;font-weight: 400; text-wrap: nowrap;&quot;&gt;비회원이 회원가입을 할 수 있도록 시스템을 통해 회원가입 절차를 완료한다&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-91">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-94" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-90">
+          <mxGeometry y="70" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-95" value="엑터" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-94">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-96" value="비회원" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-94">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-97" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-90">
+          <mxGeometry y="100" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-98" value="사전 조건" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-97">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-99" value="메인페이지에서 회원가입 버튼을 클릭하여 회원가입 페이지로 이동한다" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-97">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-100" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-90">
+          <mxGeometry y="130" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-101" value="사후 처리" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-100">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-102" value="회원 정상 가입 이후 로그인 페이지로 이동" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-100">
+          <mxGeometry x="60" width="450" height="30" as="geometry">
+            <mxRectangle width="450" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-103" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-90">
+          <mxGeometry y="160" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-104" value="기본흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-103">
+          <mxGeometry width="60" height="170" as="geometry">
+            <mxRectangle width="60" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-105" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;div&gt;1 비회원이 계정 입력란에 email 계정을 입력하고 인증 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;2 시스템은 해당 계정으로 인증코드를 전송한다&lt;/div&gt;&lt;div&gt;3 시스템은 비회원이 보는 페이지에 인증코드 확인폼을 활성화 한다&lt;/div&gt;&lt;div&gt;4 회원은 이메일 인증코드를 인증코드 확인폼에 입력한 뒤 인증확인 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;5 시스템은 인증확인 처리를 한뒤 인증확인 메시지를 전달한다&lt;/div&gt;&lt;div&gt;6 비회원은&amp;nbsp; 이름/연락처/주소/를 입력하고 회원가입 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;7 시스템은 회원가입 처리 이후 메시지를 전달한다&lt;/div&gt;&lt;div&gt;8 비회원이 메시지 확인 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;9 시스템은 로그인 페이지로 이동한다&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-103">
+          <mxGeometry x="60" width="450" height="170" as="geometry">
+            <mxRectangle width="450" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-106" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-90">
+          <mxGeometry y="330" width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-107" value="대안흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-106">
+          <mxGeometry width="60" height="130" as="geometry">
+            <mxRectangle width="60" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-108" value="&lt;div&gt;취소 버튼를 입력하면 메인 화면으로 이동&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-106">
+          <mxGeometry x="60" width="450" height="130" as="geometry">
+            <mxRectangle width="450" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-109" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-90">
+          <mxGeometry y="460" width="510" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-110" value="예외흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-109">
+          <mxGeometry width="60" height="230" as="geometry">
+            <mxRectangle width="60" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVBGW79s-rhzVoE3j8Co-111" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1a 동일한 계정이 있는경우&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;시스템은 &#39;동일한 계정이 있습니다&#39; 라는 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1b 인증을 하지않고 회원가입을 하려는 경우&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;시스템은 &#39;인증이 되지 않았습니다&#39; 라는 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1c 인증코드 입력 누락시&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;&#39;인증처리를 위한 code를 입력하세요&#39; 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1d email형식에 맞지 않는 주소 입력&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;&#39;올바른 이메일 형식을 입력하세요&#39; 라는 메시지를 비회원에게 전달&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iVBGW79s-rhzVoE3j8Co-109">
+          <mxGeometry x="60" width="450" height="230" as="geometry">
+            <mxRectangle width="450" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
